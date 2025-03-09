@@ -28,7 +28,7 @@ def retrieve_variable_from_akv():
     logger.info(variable_value)
 
 with DAG(
-   "MultiStep Example",
+   "MultiStep_Example",
    default_args={
        "depends_on_past": False,
        "email": ["airflow@example.com"],
